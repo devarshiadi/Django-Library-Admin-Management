@@ -1,5 +1,5 @@
 
-```markdown
+
 # Library Management System
 
 Welcome to the **Library Management System** built with Django and MySQL! This project allows an admin to manage books (create, read, update, and delete) and provides a student view for browsing the book collection. Whether you're an admin with a passion for organization or a student looking for your next great read, this system has you covered.
@@ -25,7 +25,7 @@ Welcome to the **Library Management System** built with Django and MySQL! This p
 
 Here's how the project is structured:
 
-```
+```markdown
 library_management/                  # Root project directory
 ├── manage.py                        # Django management script
 ├── library_management/              # Main project folder with settings
