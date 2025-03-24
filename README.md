@@ -190,4 +190,3 @@ def book_list(request):
 Thanks for checking out our project! We take our coding as seriously as our humor. So, tell us – when will we meet for coffee? I promise my humor's as strong as my debugging skills, and remember to **stay hydrated**!
 
 Happy coding!
-```
