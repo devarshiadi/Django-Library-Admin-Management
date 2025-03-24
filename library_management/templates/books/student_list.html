@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block title %}Books - Library Management{% endblock %}
+
+{% block content %}
+<h2>All Books (Student View)</h2>
+<div class="card">
+    <div class="card-body">
+        {% if books %}
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Author</th>
+                            <th>ISBN</th>
+                            <th>Publication Year</th>
+                            <th>Genre</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for book in books %}
+                            <tr>
+                                <td>{{ book.title }}</td>
+                                <td>{{ book.author }}</td>
+                                <td>{{ book.isbn }}</td>
+                                <td>{{ book.publication_year }}</td>
+                                <td>{{ book.genre }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        {% else %}
+            <p>No books available.</p>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
