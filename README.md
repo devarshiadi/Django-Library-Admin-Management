@@ -96,8 +96,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'library_db',            
-        'USER': 'your_mysql_username',     
-        'PASSWORD': 'your_mysql_password', 
+        'USER': 'keywordio_username',     
+        'PASSWORD': 'keywordio_password', 
         'HOST': 'localhost',
         'PORT': '3306',
     }
