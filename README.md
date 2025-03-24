@@ -67,7 +67,7 @@ library_management/                  # Root project directory
 Clone the repository to your local machine:
 
 ```bash
-git clone https://your-repo-url.git
+git clone https://github.com/devarshiadi/Django-Library-Admin-Management.git
 cd library_management
 ```
 
