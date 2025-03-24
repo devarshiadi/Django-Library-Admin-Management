@@ -184,8 +184,76 @@ def book_list(request):
 ```
 
 ---
+# Library Management System - Screenshots Documentation
 
-## Final Note
+This document outlines the main user flow of the Library Management System, complete with the URLs and corresponding screenshots for each step. Follow the sequence below to see how the system operates.
+
+> **Note:** All screenshots are stored in the `screenshots` folder in the project root.
+
+---
+
+## 1. Admin Signup
+
+- **URL:** `http://localhost:8000/signup/`
+- **Screenshot:**  
+  ![Admin Signup](screenshots/admin_signup.png)
+
+*Description:*  
+This is the first step where a new admin creates an account. The signup page ensures that the admin's email is unique before allowing registration.
+
+---
+
+## 2. Admin Login
+
+- **URL:** `http://localhost:8000/login/`
+- **Screenshot:**  
+  ![Admin Login](screenshots/admin_login.png)
+
+*Description:*  
+After signing up, the admin can log in using the registered email and password.
+
+---
+
+## 3. Manage Books (Dashboard)
+
+- **URL:** `http://localhost:8000/books/`
+- **Screenshot:**  
+  ![Manage Books](screenshots/manage_book.png)
+
+*Description:*  
+This dashboard displays all book records managed by the admin. It provides options to add new books, edit existing entries, or delete books.
+
+---
+
+## 4. Add New Book
+
+- **URL:** `http://localhost:8000/books/create/`
+- **Screenshot:**  
+  ![Add New Book](screenshots/add_new_book.png)
+
+*Description:*  
+Here, the admin can create a new book entry by filling out the required details. This page includes a form for adding a book.
+
+---
+
+## 5. Edit Book
+
+- **URL:** `http://localhost:8000/books/update/{id}/`  
+  *(Replace `{id}` with the actual book ID you wish to edit.)*
+- **Screenshot:**  
+  ![Edit Book](screenshots/edit_book.png)
+
+*Description:*  
+This page allows the admin to update the details of an existing book. The form is pre-filled with the book's current information to facilitate easy editing.
+
+---
+
+> **Fun Note:**  
+> When will we meet for coffee? I promise my humor's as strong as my debugging skills, and don't forget – **Stay Hydrated**!
+
+---
+
+Happy coding and enjoy navigating through the Library Management System!
 
 Thanks for checking out our project! We take our coding as seriously as our humor. So, tell us – when will we meet for coffee? I promise my humor's as strong as my debugging skills, and remember to **stay hydrated**!
 
