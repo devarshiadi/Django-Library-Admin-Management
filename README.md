@@ -255,6 +255,6 @@ This page allows the admin to update the details of an existing book. The form i
 
 Happy coding and enjoy navigating through the Library Management System!
 
-Thanks for checking out our project! We take our coding as seriously as our humor. So, tell us – when will we meet for coffee? I promise my humor's as strong as my debugging skills, and remember to **stay hydrated**!
-
+Thank you for checking out our project! At **Keywordio**, we know that great code is born out of passion, creativity, and a willingness to push boundaries. I’m excited about the opportunity to work with your team and bring innovative solutions to life. My debugging skills are as strong as my determination to excel, and I’m ready to tackle any challenge with enthusiasm—and perhaps share a coffee or two along the way.
 Happy coding!
+Stay Hydrated!
